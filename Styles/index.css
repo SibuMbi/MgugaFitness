@@ -1,132 +1,95 @@
 .body{
-    background-color: black;
-    margin: 0;
-    padding: 25px;
-    font-family: 'Poppins', sans-serif;
-
+background-color: black;
+margin: 0;
+padding: 25px;
+font-family: 'Poppins', sans-serif;
 }
 .mgugafitness{
 /* MacBook Pro - 1 */
 position: relative;
-width: 1840px;
+width: 1440px;
 height: 900px;
-
-background: #12a99d;
 }
 
 .booking{
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-    position: absolute;
-    width: 141px;
-    height: 34px;
-    left: 50px;
-    top: 270px;
+display: flex;
+flex-direction: column;
+z-index: 2;
+position: absolute;
+width: 151px;
+height: 408px;
+left: 50px;
+top: 270px;
 }
 
-.LoginSignup{
-    width: 215px;
-    margin: 25px;
-    height: 36px;
-    font-family: 'Poppins';
-    font-style: normal;
-    border-bottom: 2px solid;
-    margin-bottom: 7px;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 45px;
-    color: #FFFFFF;
-    opacity: 0.8;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+.Session{
+width: 215px;
+margin: 25px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+border-bottom: 2px solid;
+margin-bottom: 7px;
+font-weight: 700;
+font-size: 25px;
+line-height: 45px;
+color: #12da65;
 }
 
 .input{
-    border-radius: 35px;
-    border: 1px solid #0000000D
+border-radius: 35px;
+border: 1px solid #0000000D
 }
 
-.ipt1{
-    width: 200px;
-    height: 100px;
+.input1{
+width: 300px;
+height: 900px;
     
 }
 
-.ipt2{
-    width: 200px;
-    height: 100px;
+.input2{
+width: 300px;
+height: 900px;
 
 }
 
-.ipt3{
-    width: 200px;
-    height: 100px;
+.input3{
+width: 300px;
+height: 900px;
     
 }
 
 .text {
-    width: 106px;
-    height: 23px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 23px;
-    color: #E0E0E0;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-.button{
-    display: flex;
-    flex-direction: row;
-    margin: 18px;
-}
-.btn{
-    width: 130px;
-    height: 45px;
-    
-    border-radius: 31px;
+width: 200px;
+height: 23px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+color: #12da65;
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn1{
-    background: rgb(19, 121, 128);
+.button {
+background: #468189;
+border-radius: 40px;
+width: 202px;
+height: 48px;
+border: none;
+align-self: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #12da65;
+}
+        
+button:hover {
+background-color: #12da65;
+color: #468189;
 }
 
-.btn2{
-   
-    margin-left: 30px;
-    background: rgb(243, 136, 202);
-}
-
-.btntext1{
-    margin: 05px;
-    width: 91px;
-    height: 36px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    color: pink;
-}
-
-.btntext2{
-    margin: 5px;
-    width: 91px;
-    height: 36px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    color: rgb(27, 39, 144);
-}
-
-.btn1:hover .btntext1 {
-
-    color: rgb(243, 136, 202);
-  }
-
-.btn2:hover .btntext2 {
-
-    color: rgb(19, 121, 128);
-  }
+  
