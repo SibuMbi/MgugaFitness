@@ -6,7 +6,6 @@ font-family: 'Poppins', sans-serif;
 }
 .mgugafitness{
 /* MacBook Pro - 1 */
-position: relative;
 width: 1440px;
 height: 900px;
 }
@@ -16,10 +15,10 @@ display: flex;
 flex-direction: column;
 z-index: 2;
 position: absolute;
-width: 151px;
-height: 408px;
+max-width: 151px;
+max-height: 250px;
 left: 50px;
-top: 270px;
+top: 250px;
 }
 
 .Session{
