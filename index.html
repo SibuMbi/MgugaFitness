@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles/normalize.css">
-<link rel="stylesheet" href="styles/index.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles/normalize.css">
+ <link rel="stylesheet" href="styles/index.css">
 <title>MgugaFitness</title>
 
 </head>
 <body>
-<div class="Form">
-<img src="images/mgugafitness.png" alt="mgugafitness" class="mgugafitness">
-<form action="booking" class="booking">
-<p class="Session"><strong>Session Booking</strong></p>
-<label class="text">How many times a week?</label>
-<input type="text" id="week" class="input1">
-<label class="text">Target weight/Body goals and focus areas?</label>
-<input type="text" id="target" class="input2">
-<label class="text">What are your eating habbits?</label>
-<input type="text" id="habbits" class="input3">
-<button type="button">Submit</button>  
-</form>
+ 
+<div class="container">
+ <h1>Book a session with me.</h1>
+  <form action="action_page.php">
+  
+
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="time"></label>
+    <select id="time" name="time">
+      <option value="sessions">Choose Time</option>
+      <option value="morning">7:00am till 9:00am</option>
+      <option value="daytime">12:00pm till 14:00pm</option>
+      <option value="evening">18:00pm till 20:00pm</option>
+    </select>
+
+    <label for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Book">
+
+  </form>
+
+ 
+
 </div>
 </body>
 </html>
